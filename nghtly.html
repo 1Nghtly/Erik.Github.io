@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Nghtly</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#services" class="button" id="signup">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Erik <span>Jakubenas</span></h1>
+        <p class="hero__description">Web Development</p>
+        
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+            <div class="main__img--card">
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap">
+                <div class="logo">E</div>
+              </div>
+              
+        </div>
+        <div class="main__content">
+          <h1>About Me</h1>
+          <p style="font-size: 16px;">Welcome, my name is Erik Jakubenas, I'm a front-end developer with a little bit of experience in the back-end as well, currently based in Ireland. I have developed a few front-end designs for some companies. I'm passionate about making my design pixel-perfect and improving every day.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+      <h1>My Contact</h1>
+      <div class="services__container clearfix">
+          <div class="services__card" onclick="window.open('https://twitter.com/NeightIy', '_blank')">
+          <div class="icon-wrapper">
+              <i class="fab fa-twitter twitter-icon"></i>
+        </div>
+        </div>
+        <div class="services__container clearfix">
+        <div class="services__card" onclick="window.open('https://github.com/1nghtly', '_blank')">
+        <div class="icon-wrapper">
+          <i class="fab fa-github github-icon"></i>
+        </div>
+        </div>
+        <div class="services__container clearfix">
+          <div class="services__card" onclick="window.open('https://www.linkedin.com/in/erik-jakubenas-785178309/', '_blank')">
+          <div class="icon-wrapper">
+            <i class="fab fa-linkedin linkedin-icon"></i>
+        </div>
+        </div>
+        </div>
+    </div>
+
+      <section class="social__media">
+        <div class="social__media--wrap">
+            <div class="clock timer" id="clock">England | <span id="clock-time"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
